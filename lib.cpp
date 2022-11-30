@@ -1,22 +1,14 @@
-#include "primaLibreria.h"
+#include "lib.h"
 
-int potenza(int a,int b){
-    int risultato=1;
-    for(int i=0;i<b;i++){
-        risultato = risultato*a;
+bool numero_primo(int a, int b){
+    a--;
+    if(a > 1){
+        if(b%a == 0){
+            return false;
+        }else {
+            numero_primo(a, b);
+        }
+    }else{
+        return true;
     }
-    return risultato;
-}
-
-int potenza(int a){
-    return a*a;
-}
-
-int fattoriale(int a){
-    int result = 1;
-    while(a>1){
-        result = result*a;
-        a--;
-    }
-    return result;
 }
