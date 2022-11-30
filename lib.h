@@ -1,4 +1,10 @@
-#ifndef ES7_LIB_H
-#define ES7_LIB_H
-bool numero_primo(int, int);
-#endif //ES7_LIB_H
+#ifndef PRIMALIBRERIA_PRIMALIBRERIA_H
+#define PRIMALIBRERIA_PRIMALIBRERIA_H
+
+int potenza(int);
+
+int potenza(int, int);
+
+int fattoriale(int);
+
+#endif //PRIMALIBRERIA_PRIMALIBRERIA_H
