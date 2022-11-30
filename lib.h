@@ -1,10 +1,4 @@
-#ifndef PRIMALIBRERIA_PRIMALIBRERIA_H
-#define PRIMALIBRERIA_PRIMALIBRERIA_H
-
-int potenza(int);
-
-int potenza(int, int);
-
-int fattoriale(int);
-
-#endif //PRIMALIBRERIA_PRIMALIBRERIA_H
+#ifndef ES6_LIB_H
+#define ES6_LIB_H
+bool convert(char &);
+#endif //ES6_LIB_H
