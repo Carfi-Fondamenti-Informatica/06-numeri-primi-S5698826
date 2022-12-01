@@ -1,22 +1,14 @@
 #include <iostream>
-
-#include "primaLibreria.h"
+#include "lib.h"
 
 using namespace std;
 int main() {
-    int numero;
-    cin >> numero;
-    if (numero == 0) {
+    int x=0;
+    cin >>x;
+    if (numero_primo (x,x)) {
         cout << "numero primo" << endl;
-    } else if (numero < 0) {
-        return 0;
-    } else {
-
-        if (numeroPrimo(numero) == true) {
-            cout << "numero primo" << endl;
         } else {
             cout << "numero non primo" << endl;
-        }
     }
     return 0;
 
