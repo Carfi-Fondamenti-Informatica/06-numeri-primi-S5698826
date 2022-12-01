@@ -3,14 +3,16 @@
 //
 #include "primaLibreria.h"
 
-bool numeroPrimo(int x){
-    bool primo = true;
-    for (int i=2; i<x; i++){
-        int risultato=x%i;
-        if (risultato==0 and i<x){
-            primo=false;
-            break;
+
+bool numeroPrimo(int x,int y){
+    x--;
+    if (x>1){
+        if (y%x==0) {
+            return false;
+        }else{
+            numeroPrimo(x,y);
         }
+    }else {
+        return true;
     }
-    return primo;
 }
