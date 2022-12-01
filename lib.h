@@ -1,4 +1,8 @@
-#ifndef ESERCITAZIONE_FUNZIONI_PRIMALIBRERIA_H
-#define ESERCITAZIONE_FUNZIONI_PRIMALIBRERIA_H
-bool numeroPrimo(int a);
-#endif //ESERCITAZIONE_FUNZIONI_PRIMALIBRERIA_H
+//
+// Created by Gianluca Leone on 01/12/2022
+//
+
+#ifndef ESERCITAZIONE6_LIB_H
+#define ESERCITAZIONE6_LIB_H
+bool numero_primo (int,int);
+#endif //ESERCITAZIONE6_LIB_H
