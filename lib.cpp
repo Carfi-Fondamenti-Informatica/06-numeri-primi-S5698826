@@ -1,7 +1,7 @@
 //
 // Created by Gianluca Leone on 01/12/2022.
 //
-#include "primaLibreria.h"
+#include "lib.h"
 
 
 bool numeroPrimo(int x,int y){
