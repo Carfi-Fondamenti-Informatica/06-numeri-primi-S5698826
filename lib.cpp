@@ -4,13 +4,13 @@
 #include "lib.h"
 
 
-bool numeroPrimo(int x,int y){
+bool numero_primo(int x,int y){
     x--;
     if (x>1){
         if (y%x==0) {
             return false;
         }else{
-            numeroPrimo(x,y);
+            numero_primo(x,y);
         }
     }else {
         return true;
