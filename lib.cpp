@@ -1,7 +1,6 @@
 //
 // Created by Gianluca Leone on 01/12/2022.
 //
-#include "lib.h"
 
 
 bool numero_primo(int x,int y){
